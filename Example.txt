@@ -1,0 +1,75 @@
+phenolic board
+assembler
+.5
+wood,1;resin,1
+phenolic board,2
+wood
+assembler
+.5
+raw wood,1
+wood,2
+resin
+assembler
+2
+liquid resin,40
+resin,4
+liquid resin 1
+chemical plant
+2
+urea,20;formaldehyde,20
+liquid resin,10
+liquid resin from bio resin
+liquifier
+4
+raw bio resin,2;ethanol,20
+liquid resin,5
+liquid resin 2
+chemical plant
+2
+melamine,20;formaldehyde,20
+liquid resin,20
+liquid resin 3
+chemical plant
+2
+bisphenol-A,20;epichlorhydrin,20
+liquid resin,30
+urea
+chemical plant
+2
+ammonia,60;carbon dioxide,40
+urea,80;pure water,20
+ammonia from blue algae
+liquifier
+30
+blue cellulose fiber,20
+ammonia,100
+ammonia synthesis
+chemical plant
+2
+red metal catalyst,1;hydrogen,50;nitrogen,50
+ammonia,100;metal catalyst carrier,1
+formaldehyde
+chemical plant
+2
+green metal catalyst,1;methanol,100
+formaldehyde,100;metal catalyst carrier,1
+methanol synthesis
+chemical plant
+2
+green metal catalyst,1;carbon dioxide,100;hydrogen,100
+methanol,100;metal catalyst carrier,1
+methanol from cellulose
+liquifier
+30
+cellulose fiber,20
+methanol,100
+methanol from methane
+steam cracker
+4
+methane,60;steam,60
+methanol,80;residual gas,20
+methanol catalytic synthesis
+chemical plant
+2
+green metal catalyst,1;synthesis gas,100;carbon dioxide,40
+methanol,80;pure water,20;metal catalyst carrier,1
